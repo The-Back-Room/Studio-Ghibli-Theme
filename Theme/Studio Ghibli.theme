@@ -1,0 +1,78 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_Studio Ghibli
+DisplayName=Studio Ghibli
+BrandImage=%SystemRoot%\Resources\Themes\Studio Ghibli\brand.png
+ThemeId={11D872A8-C2C7-41E7-95A7-A0D683D96B02}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Studio Ghibli\Icons\This PC.ico
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Studio Ghibli\Icons\User.ico
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Studio Ghibli\Icons\Network.ico
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\Studio Ghibli\Icons\Full.ico
+Empty=%SystemRoot%\Resources\Themes\Studio Ghibli\Icons\Empty.ico
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\working.ani
+Arrow=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\pointer.cur
+Crosshair=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\precision.cur
+Hand=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\link.cur
+Help=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\help.cur
+IBeam=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\beam.cur
+No=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\unavailable.cur
+NWPen=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\handwriting.cur
+SizeAll=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\move.cur
+SizeNESW=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\dgn2.cur
+SizeNS=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\vert.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\dgn1.cur
+SizeWE=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\horz.cur
+UpArrow=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\alternate.cur
+Wait=%SystemRoot%\Resources\Themes\Studio Ghibli\Cursors\Dark\busy.ani
+DefaultValue=Studio Ghibli
+
+[Control Panel\Desktop]
+Wallpaper=%ResourceDir%\Themes\Studio Ghibli\Backgrounds\01.jpeg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=1
+ColorizationColor=0XC41C4559
+Transparency=1
+SystemMode=Dark
+AppMode=Dark
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Studio Ghibli
+
+[AppEvents\Schemes\Apps\.Default\ChangeTheme]
+DefaultValue=%SystemRoot%\Resources\Themes\Studio Ghibli\Sounds\Windows Change Theme.wav
+
+[Slideshow]
+ImagesRootPath=%SystemRoot%\Resources\Themes\Studio Ghibli\Backgrounds
+Interval=1800000
+Shuffle=1
